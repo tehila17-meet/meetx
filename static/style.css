@@ -342,7 +342,7 @@ input:-webkit-autofill:focus {
     height: 0;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
-    border-top: 10px solid #ffffff;
+    border-top: 10px solid #DE3C39;
     opacity: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -353,10 +353,14 @@ input:-webkit-autofill:focus {
     opacity: 1;
     top: 0;
 }
+.ll:hover {
+    color:white;
+}
+
 
 .mainmenu-area #primary-menu ul li.active a,
 .mainmenu-area #primary-menu ul li a:hover {
-    border-top: 3px solid #ffffff;
+    border-top: 3px solid #DE3C39;
 }
 
 .mainmenu-area.affix {
