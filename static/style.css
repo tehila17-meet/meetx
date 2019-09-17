@@ -75,7 +75,7 @@ body {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 1.8;
@@ -242,9 +242,9 @@ input:-webkit-autofill:focus {
     padding-bottom: 20px;
 }
 
-.page-title h2:after {
+/*.page-title h2:after {
     content: "\e675";
-    font-family: 'themify';
+font-family: 'Ubuntu', sans-serif;
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -253,7 +253,7 @@ input:-webkit-autofill:focus {
     width: 15px;
     height: 15px;
     font-size: 14px;
-}
+}*/
 
 /**
 *Box-style
@@ -358,7 +358,7 @@ input:-webkit-autofill:focus {
     height: 0;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
-    border-top: 10px solid #DE3C39;
+    border-top: 10px solid white;
     opacity: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -376,7 +376,7 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area #primary-menu ul li.active a,
 .mainmenu-area #primary-menu ul li a:hover {
-    border-top: 3px solid #DE3C39;
+    border-top: 3px solid white;
 }
 
 .mainmenu-area.affix {
@@ -826,7 +826,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom / 100% auto;
+    background: url('images/-bg.png') no-repeat scroll center bottom / 100% auto;
 }
 
 .footer-top {
