@@ -137,7 +137,7 @@ input:-webkit-autofill:focus {
 .social-menu {
     list-style: none;
     margin: 0;
-    padding: 10px;
+    padding: 1px;
 }
 
 .social-menu li {
@@ -869,10 +869,12 @@ font-family: 'Ubuntu', sans-serif;
 *Contact-form
 ****/
 
+
 .contact-form .button {
     letter-spacing: 2px;
     min-width: 150px;
     margin-top: 10px;
+    margin-bottom:20px;
     border-radius: 3px;
 }
 
